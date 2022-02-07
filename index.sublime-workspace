@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exi",
+				"exibermedia"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"novo",
+				"novoobjeto"
+			],
+			[
+				"str_",
+				"str_pad"
+			],
+			[
+				"subst",
+				"substr"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"array_s",
+				"array_sum"
+			],
+			[
+				"array_co",
+				"array_combine"
+			],
+			[
+				"array_un",
+				"array_unshift"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"TIMES",
+				"TIMES"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robert/Desktop/thewayshop/index.html",
+		"/F/Projetos/curso_php/novo-curso.php/variaveis-super-globais.php",
+		"/C/Users/Robert/Documents/Luis_H/Jarvis Comandos Personalizados/Social Commands.txt",
+		"/F/Projetos/curso_php/novo-curso.php/criando-funcoes.php",
+		"/F/Projetos/curso_php/novo-curso.php/funcoes-para-strings.php",
+		"/C/Users/Robert/Desktop/hvac/main.html",
+		"/C/Users/Robert/Desktop/hvac/about.html",
+		"/C/Users/Robert/Desktop/hvac/contact.html",
+		"/C/Users/Robert/Desktop/hvac/blog.html",
+		"/C/Users/Robert/Desktop/hvac/index.html",
+		"/C/Users/Robert/Downloads/da6d58789e-ster.zip",
+		"/F/Projetos/curso_php/novo-curso.php/operador-de-comparacao.php",
+		"/F/Projetos/curso_php/novo-curso.php/for-foreach.php",
+		"/F/Projetos/curso_php/novo-curso.php/while-dowhile.php",
+		"/F/Projetos/curso_php/novo-curso.php/operadores-logicos.php",
+		"/F/Projetos/curso_php/novo-curso.php/operadores-de-atribuicao.php",
+		"/F/Projetos/curso_php/novo-curso.php/operadores-incremento-decremento.php",
+		"/F/Projetos/curso_php/novo-curso.php/operadores-aritimeticos.php",
+		"/F/Projetos/curso_php/novo-curso.php/condicionais.php",
+		"/C/Users/Robert/Desktop/style-barber/index.html",
+		"/F/Projetos/curso_php/novo-curso.php/funcoes-de-arrays.php",
+		"/F/Projetos/curso_php/novo-curso.php/arrays.php",
+		"/F/Projetos/curso_php/novo-curso.php/constantes.php",
+		"/F/Projetos/curso_php/novo-curso.php/escopo-de-variaveis.php",
+		"/F/Projetos/curso_php/novo-curso.php/aspas-concatenacao.php",
+		"/F/Projetos/curso_php/novo-curso.php/tipos-de-dados.php",
+		"/F/Projetos/curso_php/bases-dados-mysql.php",
+		"/F/Projetos/curso_php/novo-curso.php/fundamentos-basicos.php",
+		"/F/Projetos/curso_php/restaurante/inserir-pratos.php",
+		"/F/Projetos/curso_php/._exercicio-loops-for-while.php",
+		"/F/Projetos/curso_php/novo-curso.php/variaveis.php",
+		"/F/Projetos/curso_php/novo-curso.php/arquivo-abaixado.php",
+		"/F/Projetos/curso_php/novo-curso.php/02-variaveis.php",
+		"/F/Projetos/curso_php/novo-curso.php/index.html",
+		"/F/Projetos/curso_php/g-one1/index.php",
+		"/F/Projetos/curso_php/g-one1/formulario.php",
+		"/F/Projetos/curso_php/g-one1/Host.cs",
+		"/F/Projetos/novo_corso.php/index.php",
+		"/F/Projetos/curso_php/g-one1/host.py",
+		"/F/Projetos/curso_php/restaurante/index.php",
+		"/F/Projetos/curso_php/g-one1/README.md",
+		"/F/Projetos/curso_php/__MACOSX/curso-php/exercicio-arrays.php",
+		"/F/Projetos/curso_php/exercicio-superglobal-get.php",
+		"/F/Projetos/curso_php/g-one1/Qrng.csproj",
+		"/F/Projetos/curso_php/g-one1/Qrng.qs",
+		"/F/Projetos/curso_php/restaurante/php_mailer/info/VERSION",
+		"/F/Projetos/curso_php/restaurante/php_mailer/google_links.txt",
+		"/F/Projetos/curso_php/restaurante/php_mailer/info/README.md",
+		"/F/Projetos/curso_php/__MACOSX/curso-php/._exercicio-loops-for-while.php",
+		"/C/Users/Robert/Documents/Luis_H/PRIMEIRO.HTML",
+		"/C/Users/Robert/Documents/Luis_H/Primeiro-estilo.CSS",
+		"/C/Users/Robert/Documents/Luis_H/Link -img HTML.HTML",
+		"/F/Projetos/curso_php/restaurante/exercicio-arrays.php",
+		"/F/Projetos/curso_php/restaurante/php_mailer/copiar_codigo.php",
+		"/F/Projetos/curso_php/restaurante/php_mailer/Exception.php",
+		"/F/Projetos/curso_php/restaurante/php_mailer/PHPMailer.php",
+		"/F/Projetos/curso_php/restaurante/header.php",
+		"/F/Projetos/curso_php/restaurante/prato.php",
+		"/F/Projetos/curso_php/restaurante/cardapio.php",
+		"/F/Projetos/curso_php/restaurante/img/cardapio/camarao-alho.jpg",
+		"/F/Projetos/curso_php/restaurante/footer.php",
+		"/F/Projetos/curso_php/restaurante/navigation-list.php",
+		"/C/Users/Robert/AppData/Local/Temp/Rar$DIa7156.41529/inserir-pratos.php",
+		"/C/Users/Robert/AppData/Local/Temp/Rar$DIa11944.29507/exercicio-condicionais.php",
+		"/F/Projetos/curso_php/components/gallery-001.php",
+		"/F/Projetos/curso_php/consulta-base-dados.php",
+		"/F/Projetos/curso_php/formularios.php",
+		"/F/Projetos/curso_php/valida-formularios.php",
+		"/F/Projetos/curso_php/and-or.php",
+		"/F/Projetos/curso_php/data-hora.php",
+		"/F/Projetos/curso_php/functions/functions.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/bases-dados-mysql.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/valida-formularios.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/formularios.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/consulta-base-dados.php",
+		"/C/Users/Robert/AppData/Local/Temp/Rar$DIa4016.8203/exercicio-condicionais.php",
+		"/C/Users/Robert/Documents/gallery-001.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/data-hora.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/header.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/css/gallery-001.css",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/components/gallery-001.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/include-require.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/css/style.css",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/condicionais.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/file-to-include.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/arrays.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/and-or.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/escopo-variaveis.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/booleans.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/variaveis.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/tipos-dados.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/tipo-objetos.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/tipo-null.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/tabela-date.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/superglobal-get.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/superglobais.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/strings.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/operacoes-arrays.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/numeros.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/loops-for-while.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/loop-foreach.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/index.php",
+		"/C/Users/Robert/Desktop/curso_php/curso-php/funcoes.php",
+		"/C/Users/Robert/Documents/Luis_H/PRIMEIRO-ESTILO.HTML",
+		"/C/Users/Robert/Documents/Luis_H/PrimeiroHTML-SEO.html",
+		"/C/Users/Robert/Desktop/curso_php/info.php",
+		"/C/Users/Robert/Documents/Index.php",
+		"/C/Users/Robert/Documents/Link-img HTML.HTML",
+		"/C/Users/Robert/Documents/index.php",
+		"/C/Users/Robert/Documents/Primeiro-estilo.CSS",
+		"/C/Users/Robert/Documents/Primeiro-layout.html",
+		"/C/Users/Robert/Documents/ESTILO.CSS",
+		"/C/Users/Robert/Documents/PRIMEIRO-ESTILO.HTML",
+		"/C/Users/Robert/Documents/PAGINA1.HTML",
+		"/C/Users/Robert/Documents/Link -img HTML.HTML",
+		"/C/Users/Robert/Documents/PAGES/PAGINA2.HTML",
+		"/C/Users/Robert/Documents/PRIMEIRO.HTML",
+		"/C/Users/Robert/Downloads/Link -img HTML.HTML duda.HTML duda.HTML duda",
+		"/C/Users/Robert/Documents/IMG/icone",
+		"/C/Users/Robert/Documents/PAGINA2.HTML",
+		"/C/Users/Robert/Documents/PAGES/PAGINA1.HTML",
+		"/C/Users/Robert/Documents/Página1.HTML.html",
+		"/C/Users/Robert/Documents/PAGES/Página1.HTML.html",
+		"/C/Users/Robert/Documents/PAGES/Página1.HTML",
+		"/C/Users/Robert/Documents/Página1.HTML",
+		"/C/Users/Robert/Documents/Página2.HTML",
+		"/C/Users/Robert/Link -img HTML.html",
+		"/C/Users/Robert/Documents/LUIS/PRIMEIRO.HTML"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

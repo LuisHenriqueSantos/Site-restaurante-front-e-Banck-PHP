@@ -1,0 +1,9 @@
+Unlock Captcha:
+https://accounts.google.com/DisplayUnlockCaptcha
+
+Configure SMTP:
+https://support.google.com/mail/answer/7126229?visit_id=1-636583698413922171-1848036522&hl=pt-BR&rd=1
+
+
+
+
