@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="18e578e1-cb7e-4c55-b1e4-0378440fa5a7" name="xampp" url="http://localhost:81/Site-restaurante-front-e-Banck-PHP">
-        <fileTransfer mountedRoot="C:\xampp\htdocs\Site-restaurante-front-e-Banck-PHP" accessType="MOUNT" port="0" />
+        <fileTransfer mountedRoot="C:\Users\luish\OneDrive\Documentos\GitHub\TopOne\PHP\Site-restaurante-front-e-Banck-PHP" accessType="MOUNT" port="0" />
       </webServer>
     </option>
   </component>
