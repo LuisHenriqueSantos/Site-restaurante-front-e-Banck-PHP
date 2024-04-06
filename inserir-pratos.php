@@ -156,7 +156,7 @@
         $user = 'root';
         $password = '';
         $db_name = 'bd_harpos';
-        $port = '3306';
+        $port = '3307';
 
         $db_connect = new mysqli($server,$user,$password,$db_name,$port);
         mysqli_set_charset($db_connect,"utf8");
