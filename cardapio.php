@@ -50,8 +50,6 @@
                                                                 </div>
 
                                                                 <div class="item-info">
-
-
                                                                     <div class="title"><?php echo $row2['nome']; ?></div>
                                                                 </div>
 

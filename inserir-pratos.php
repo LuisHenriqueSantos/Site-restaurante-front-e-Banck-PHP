@@ -177,7 +177,7 @@
                 $destaque =$prato['destaque'];
                 $imagem =$prato['nomeimagem'];
 
-                $sql = "INSERT INTO restaurante(codigo,nome,categoria,descr,preco,calorias,destaque,nomeimagem) VALUES ('$codigo', '$nome', '$categoria', '$descr', $preco, $calorias, $destaque, '$nomeimagem')";
+                $sql = "INSERT INTO restaurante(codigo,nome,categoria,descr,preco,calorias,destaque,nomeimagem) VALUES ('$codigo', '$nome', '$categoria', '$descricao', $preco, $calorias, $destaque, '$imagem')";
 
                 if ($db_connect->query($sql)) {
                     echo $nome . "inserido com sucesso" . '<br><br>';
