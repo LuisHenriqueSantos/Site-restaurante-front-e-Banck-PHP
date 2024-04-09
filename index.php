@@ -56,7 +56,7 @@
 
 
             <div class="slider-cardapio">
-                <div class="slider-002 small-12 small-centered columns">
+                <div class="cardapio-item small-12 small-centered columns">
 
                     <?php
 
