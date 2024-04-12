@@ -13,11 +13,11 @@
                     <h2>Seja bem vindo</h2>
                 </div>
             </div>
-            
+
         </div>
 
         <div class="photo-gradient">
-            
+
         </div>
 
     </div>
@@ -26,19 +26,19 @@
 
         <div class="global-page-container">
             <div id="about-us" class="about-us-title small-12 columns no-padding">
-            <h3>Sobre Nós</h3>
-            <hr></hr>
+                <h3>Sobre Nós</h3>
+                <hr></hr>
             </div>
-     
-                <img src="img/main-photo.jpg" alt="fachada do restaurante">
+
+            <img src="img/main-photo.jpg" alt="fachada do restaurante">
 
             <div class="about-us-text">
                 <p>
-                Olá,somos Harpos!  Estamos no ramo a mais de 7 anos com muito trabalho e companherismo. Um restaurante de ótima qualidade e respeito aos clientes.
+                    Olá,somos Harpos!  Estamos no ramo a mais de 7 anos com muito trabalho e companherismo. Um restaurante de ótima qualidade e respeito aos clientes.
                 </p>
 
             </div>
-        
+
         </div>
 
     </div>
@@ -47,8 +47,8 @@
     <div class="cardapio small-11 large-12 columns no-padding small-centered">
         <div class="global-page-container">
             <div class="cardapio-title small-12 columns no-padding">
-            <h3>Cardápio</h3>
-            <hr></hr>
+                <h3>Cardápio</h3>
+                <hr></hr>
             </div>
         </div>
 
@@ -56,72 +56,59 @@
 
 
             <div class="slider-cardapio">
-                <div class="cardapio-item small-12 small-centered columns">
+                <div class="slider-002 small-12 small-centered columns">
 
                     <?php
 
-                        $server = 'localhost';
-                        $user = 'root';
-                        $password = '';
-                        $db_name = 'bd_harpos';
-                        $port = '3307';
+                    $server = 'localhost';
+                    $user = 'root';
+                    $password = '';
+                    $db_name = 'bd_harpos';
+                    $port = '3307';
 
-                        $db_connect = new mysqli($server,$user,$password,$db_name,$port);
-                        mysqli_set_charset($db_connect,"utf8");
+                    $db_connect = new mysqli($server,$user,$password,$db_name,$port);
+                    mysqli_set_charset($db_connect,"utf8");
 
-                        if ($db_connect->connect_error) {
-                            echo 'Falha: ' . $db_connect->connect_error;
-                        } else {
-                          //  echo 'Conexão feita com sucesso' . '<br><br>';  
+                    if ($db_connect->connect_error) {
+                        echo 'Falha: ' . $db_connect->connect_error;
+                    } else {
+                        //  echo 'Conexão feita com sucesso' . '<br><br>';  
 
-                            $sql = "SELECT * FROM restaurante WHERE destaque=1";
-                            $result = $db_connect->query($sql);
+                        $sql = "SELECT * FROM restaurante WHERE destaque >= 0";
+                        $result = $db_connect->query($sql);
 
-                            if ($result->num_rows > 0) { // Verifica o número de linhas retornadas
-                                while ($row = $result->fetch_assoc()) {
-                                    $categoria = $row['categoria'];
-                                    ?>
-                                    <div class="category-slider small-12 columns no-padding">
-                                        <h4><?php echo $categoria; ?></h4>
-                                        <div class="slider-cardapio">
-                                            <div class="slider-002 small-12 small-centered columns">
-                                                <?php
-                                                $sql2 = "SELECT * FROM restaurante WHERE categoria='$categoria'";
-                                                $result2 = $db_connect->query($sql2);
+                        if ($result->num_rows > 0) {
 
-                                                if ($result2->num_rows > 0) {
-                                                    while ($row2 = $result2->fetch_assoc()) { ?>
-                                                        <div class="cardapio-item-outer bounce-hover small-10 medium-4 columns">
-                                                            <div class="cardapio-item">
-                                                                <a href="prato.php?prato=<?php echo $row2['codigo']; ?>">
+                            while ($row = $result->fetch_assoc()) { ?>
 
-                                                                    <div class="item-image">
-                                                                        <img src="img/cardapio/<?php echo $row2['nomeimagem']; ?>" alt="cogumelos"/>
-                                                                    </div>
+                                <div class="cardapio-item-outer bounce-hover small-10 medium-4 columns">
+                                    <div class="cardapio-item">
+                                        <a href="prato.php?prato=<?php echo $row['codigo']; ?>">
 
-                                                                    <div class="item-info">
-                                                                        <div class="title"><?php echo $row2['nome']; ?></div>
-                                                                    </div>
-
-                                                                    <div class="gradient-filter">
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    <?php }
-                                                }
-                                                ?>
+                                            <div class="cardapio-item-image">
+                                                <img src="img/cardapio/<?php echo $row['codigo']; ?>.jpg" alt="camarao"/>
                                             </div>
-                                        </div>
-                                    </div>
-                                <?php }
-                            } else {
-                                echo 'Não há itens';
-                            }    
-                        }
 
-                    ?>  
-            
+                                            <div class="item-info">
+                                                <div class="title"><?php echo $row['nome']; ?></div>
+                                            </div>
+
+                                            <div class="gradient-filter">
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </div>
+
+                            <?php }
+
+                        } else {
+                            echo 'Não há destaques';
+                        }
+                    }
+
+                    ?>
+
                 </div>
             </div>
         </div>
@@ -131,27 +118,27 @@
 
         <div class="global-page-container">
             <div class="contact-us-title small-12 columns no-padding">
-            <h3>Faça a sua reserva </h3>
-            <hr></hr>
+                <h3>Faça a sua reserva </h3>
+                <hr></hr>
             </div>
-            
+
             <div class="reservation-form small-12 columns no-padding">
 
                 <form action="index.php#contact-us" method="post">
 
                     <div class="form-part1 small-12 large-8 xlarge-7 columns no-padding">
-                
+
                         <input type="text" name="nome" class="field" placeholder="Nome completo" required/>
-                        
+
                         <input type="email" name="email" class="field" placeholder="E-mail" required/>
-                        
+
                         <textarea type="text" name="mensagem" class="field" placeholder="Mensagem"></textarea>
 
                     </div>
 
                     <div class="form-part2 small-12 large-3 xlarge-3 end columns no-padding">
                         <input type="text" name="telefone" class="field" placeholder="Telefone" required/>
-                        
+
                         <input type="datetime-local" name="data" class="field" placeholder="Data e hora" required/>
 
                         <input type="text" name="num_pessoas" class="field" placeholder="Número de pessoas" required/>
@@ -163,44 +150,44 @@
 
                 </form>
 
-                <?php 
+                <?php
 
 
-                    // Inserir Arquivos do PHPMailer
-                    require 'php_mailer/Exception.php';
-                    require 'php_mailer/PHPMailer.php';
-                    require 'php_mailer/SMTP.php';
+                // Inserir Arquivos do PHPMailer
+                require 'php_mailer/Exception.php';
+                require 'php_mailer/PHPMailer.php';
+                require 'php_mailer/SMTP.php';
 
-                    // Usar as classes sem o namespace
-                    use PHPMailer\PHPMailer\PHPMailer;
-                    use PHPMailer\PHPMailer\Exception;
+                // Usar as classes sem o namespace
+                use PHPMailer\PHPMailer\PHPMailer;
+                use PHPMailer\PHPMailer\Exception;
 
-                    function clean_input($input) {
-                        $input =  trim($input);
-                        $input = stripcslashes($input);
-                        $input = htmlspecialchars($input);
+                function clean_input($input) {
+                    $input =  trim($input);
+                    $input = stripcslashes($input);
+                    $input = htmlspecialchars($input);
 
-                        return $input;
+                    return $input;
 
-                    }
+                }
 
-                    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                        $nome = $_POST['nome'];
-                        $email = $_POST['email'];
-                        $mensagem = $_POST['mensagem'];
-                        $telefone = $_POST['telefone'];
-                        $data = $_POST['data'];
-                        $num_pessoas = $_POST['num_pessoas'];
+                if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                    $nome = $_POST['nome'];
+                    $email = $_POST['email'];
+                    $mensagem = $_POST['mensagem'];
+                    $telefone = $_POST['telefone'];
+                    $data = $_POST['data'];
+                    $num_pessoas = $_POST['num_pessoas'];
 
-                        $nome = clean_input($nome);
-                        $email = clean_input($email);
-                        $mensagem = clean_input($mensagem);
-                        $telefone = clean_input($telefone);
-                        $data = clean_input($data);
-                        $num_pessoas = clean_input($num_pessoas);
+                    $nome = clean_input($nome);
+                    $email = clean_input($email);
+                    $mensagem = clean_input($mensagem);
+                    $telefone = clean_input($telefone);
+                    $data = clean_input($data);
+                    $num_pessoas = clean_input($num_pessoas);
 
 
-                        $texto_msg = 'E-mail enviado do sistema de reserva do site' . '<br><br>' .
+                    $texto_msg = 'E-mail enviado do sistema de reserva do site' . '<br><br>' .
                         'Nome: ' . $nome . '<br>' .
                         'E-mail: ' . $email . '<br>' .
                         'Telefone: ' . $telefone . '<br>' .
@@ -208,70 +195,70 @@
                         'Números de pessoas: ' . $num_pessoas . '<br>' .
                         'Mensagem: ' . $mensagem . '<br>';
 
-                        // Criação do Objeto da Classe PHPMailer
-                        $mail = new PHPMailer(true); 
-                        $mail->CharSet="UTF-8";
+                    // Criação do Objeto da Classe PHPMailer
+                    $mail = new PHPMailer(true);
+                    $mail->CharSet="UTF-8";
 
-                        try {
-                            
-                            //Retire o comentário abaixo para soltar detalhes do envio 
-                            // $mail->SMTPDebug = 2;                                
-                            
-                            // Usar SMTP para o envio
-                            $mail->isSMTP();                                      
+                    try {
 
-                            // Detalhes do servidor (No nosso exemplo é o Google)
-                            $mail->Host = 'smtp.gmail.com';
+                        //Retire o comentário abaixo para soltar detalhes do envio 
+                        // $mail->SMTPDebug = 2;                                
 
-                            // Permitir autenticação SMTP
-                            $mail->SMTPAuth = true;                               
+                        // Usar SMTP para o envio
+                        $mail->isSMTP();
 
-                            // Nome do usuário
-                            $mail->Username = 'starcktony55@gmail.com';        
-                            // Senha do E-mail         
-                            $mail->Password = 'marvelmarvel';                           
-                            // Tipo de protocolo de segurança
-                            $mail->SMTPSecure = 'tls';   
+                        // Detalhes do servidor (No nosso exemplo é o Google)
+                        $mail->Host = 'smtp.gmail.com';
 
-                            // Porta de conexão com o servidor                        
-                            $mail->Port = 587;
+                        // Permitir autenticação SMTP
+                        $mail->SMTPAuth = true;
 
-                            
-                            // Garantir a autenticação com o Google
-                            $mail->SMTPOptions = array(
-                                'ssl' => array(
-                                    'verify_peer' => false,
-                                    'verify_peer_name' => false,
-                                    'allow_self_signed' => true
-                                )
-                            );
+                        // Nome do usuário
+                        $mail->Username = 'starcktony55@gmail.com';
+                        // Senha do E-mail         
+                        $mail->Password = 'marvelmarvel';
+                        // Tipo de protocolo de segurança
+                        $mail->SMTPSecure = 'tls';
 
-                            // Remetente
-                            $mail->setFrom($email, $nome);
-                            
-                            // Destinatário
-                            $mail->addAddress('starcktony55@gmail.com', 'Restô Bar');
+                        // Porta de conexão com o servidor                        
+                        $mail->Port = 587;
 
-                            // Conteúdo
 
-                            // Define conteúdo como HTML
-                            $mail->isHTML(true);                                  
+                        // Garantir a autenticação com o Google
+                        $mail->SMTPOptions = array(
+                            'ssl' => array(
+                                'verify_peer' => false,
+                                'verify_peer_name' => false,
+                                'allow_self_signed' => true
+                            )
+                        );
 
-                            // Assunto
-                            $mail->Subject = 'Novo pedido de reserva';
-                            $mail->Body    =  $texto_msg;
-                            $mail->AltBody =  $texto_msg;
+                        // Remetente
+                        $mail->setFrom($email, $nome);
 
-                            // Enviar E-mail
-                            $mail->send();
-                            $confirmacao = 'Mensagem enviada com sucesso';
-                        } catch (Exception $e) {
-                            $confirmacao = 'A mensagem não foi enviada';
-                        }
+                        // Destinatário
+                        $mail->addAddress('starcktony55@gmail.com', 'Restô Bar');
 
+                        // Conteúdo
+
+                        // Define conteúdo como HTML
+                        $mail->isHTML(true);
+
+                        // Assunto
+                        $mail->Subject = 'Novo pedido de reserva';
+                        $mail->Body    =  $texto_msg;
+                        $mail->AltBody =  $texto_msg;
+
+                        // Enviar E-mail
+                        $mail->send();
+                        $confirmacao = 'Mensagem enviada com sucesso';
+                    } catch (Exception $e) {
+                        $confirmacao = 'A mensagem não foi enviada';
                     }
 
-               ?>
+                }
+
+                ?>
 
             </div>
 
@@ -283,4 +270,4 @@
     </div>
 
 
- <?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
