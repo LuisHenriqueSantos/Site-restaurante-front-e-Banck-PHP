@@ -1,0 +1,40 @@
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('jardim-cogumelos', 'Jardim de Cogumelos', 'Entradas', 'Nossa especialidade.', 12.00, 290, 0, 'jardim-cogumelos.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('camarao-alho', 'Camarões Ao Alho', 'Entradas', 'Nossa especialidade.', 16.00, 340, 1, 'camarao-alho.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('salada-grega', 'Salada Grega', 'Entradas', 'Nossa especialidade.', 11.00, 180, 0, 'salada-grega.jpgg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('brie-geleia', 'Tapas de Queijo Brie e Geleia', 'Entradas', 'Nossa especialidade.', 14.00, 400, 0, 'brie-geleia.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('picanha-brasileira', 'Picanha à Brasileira', 'Pratos Principais', 'Nossa especialidade.', 28.00, 890, 1, 'picanha-brasileira.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('costelinha', 'Costelinha de Porco', 'Pratos Principais', 'Nossa especialidade.', 29.00, 930, 0, 'costelinha.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('salmao-legumes', 'Salmão Aos Legumes', 'Pratos Principais', 'Nossa especialidade.', 29.00, 690, 1, 'salmao-legumes.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('churrasco-misto', 'Churrasco Misto', 'Pratos Principais', 'Nossa especialidade.', 26.00, 700, 0, 'churrasco-misto.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('cheesecake-cereja', 'Cheese Cake de Cereja', 'Sobremesas', 'Nossa especialidade.', 16.00, 680, 1, 'cheesecake-cereja.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('flan-frutas-vermelhas', 'Flan de Frutas Vermelhas', 'Sobremesas', 'Nossa especialidade.', 14.00, 620, 0, 'flan-frutas-vermelhas.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('petit-gateau', 'Petit Gateau', 'Sobremesas', 'Nossa especialidade.', 19.00, 720, 0, 'petit-gateau.jpg');
+
+INSERT INTO restaurante(codigo, nome, categoria, descr, preco, calorias, destaque, nomeimagem)
+VALUES ('acai', 'Açai', 'Sobremesas', 'Nossa especialidade.', 15.00, 520, 0, 'acai.jpg');
+
+
+
+
+

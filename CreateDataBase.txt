@@ -1,0 +1,15 @@
+
+Cria o banco
+create database bd_harpos
+
+Cria as tabelas.
+CREATE TABLE cardapio (
+    codigo VARCHAR(255),
+    nome VARCHAR(255),
+    categoria VARCHAR(255),
+    descr VARCHAR(225),
+    preco DECIMAL(10,2),
+    calorias INT,
+    destaque TINYINT(1),
+    nomeimagem VARCHAR(255)
+);
